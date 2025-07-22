@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import connectDB from "./config/ConnectDB.js";
+import connectDB from "./config/connectDB.js";
 import userRouter from "./routes/userRoute.js";
 import carRouter from "./routes/carRoute.js";
 import ownerRouter from "./routes/ownerRoute.js";
